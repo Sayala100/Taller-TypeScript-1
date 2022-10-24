@@ -1,0 +1,20 @@
+.header{
+    background-color:#2f9b96;
+}
+
+
+.containerFluid{
+    margin: 2% 25% 0% 10%;
+    border-width: 1px;
+    
+}
+
+.container{
+    margin: 0% 25% 0% 10%;
+    border-width: 1px;
+    
+}
+
+table th.shrink {
+    white-space:nowrap
+}
