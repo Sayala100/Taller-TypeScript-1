@@ -18,3 +18,8 @@
 table th.shrink {
     white-space:nowrap
 }
+
+.active{
+    color: rgb(37, 108, 223);
+    text-decoration-line: underline;
+}

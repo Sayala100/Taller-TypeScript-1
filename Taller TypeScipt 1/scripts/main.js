@@ -9,6 +9,7 @@ function setCells(seriess) {
         var cell = document.createElement("tr");
         cell.innerHTML = "<td class=\"table-light\">".concat(serie.id, "</td>\n                        <td class=\"table-light\">").concat(serie.name, "</td>\n                        <td class=\"table-light\">").concat(serie.channel, "</td>\n                        <td class=\"table-light\">").concat(serie.seasons, "</td>");
         bodyS.appendChild(cell);
+        cell.children[1].classList.add("active");
     });
 }
 function getSeasonAverage(seriess) {

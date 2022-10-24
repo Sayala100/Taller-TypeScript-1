@@ -15,6 +15,8 @@ function setCells(seriess: Serie[]): void {
                         <td class="table-light">${serie.channel}</td>
                         <td class="table-light">${serie.seasons}</td>`;
        bodyS.appendChild(cell);
+
+       cell.children[1].classList.add("active");
     });
 }
 
